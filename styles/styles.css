@@ -60,7 +60,7 @@ body{
 }
 
 #input-box:focus{
-    outline: 2px solid #FF287C;
+    outline: 0;
 }
 
 .btn{

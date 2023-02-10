@@ -4,7 +4,7 @@ const noteContainer = document.querySelector('.note-container');
 const deleteBtn = document.querySelector('.note-container');
 
 submitBtn.addEventListener('click', function () {
-    if (form.value.length > 20) {
+    if (form.value.length >= 20) {
         // Created a flex div
     let noteList = document.createElement('div');
     noteList.classList.add('note-list');

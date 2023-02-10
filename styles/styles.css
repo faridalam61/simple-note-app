@@ -102,5 +102,9 @@ body{
     padding: 12px;
     border-radius: 8px;
 }
-    
+        #input-box {
+            width: 96%;
+            border-radius: 8px;
+            padding: 3%;
+}
 }

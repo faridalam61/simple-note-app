@@ -27,6 +27,7 @@ submitBtn.addEventListener('click', function () {
         noteContainer.appendChild(noteList)
         
         form.value = '';
+        document.querySelector('.length').innerText = 'Minimum 20 charecters'
     } else {
         alert('Enter minimum 20 charecters');
 }

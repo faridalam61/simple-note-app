@@ -79,7 +79,7 @@ body{
     cursor: pointer;
 }
 
-.fa-trash{
+.fa-trash:hover{
     color: #F71069;
     cursor: pointer;
 }

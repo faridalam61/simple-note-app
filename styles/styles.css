@@ -25,6 +25,7 @@ body{
     background-color: #FF287C;
     padding: 30px;
     border-radius: 15px;
+    min-height: 150px;
 }
 
 .note-list{
@@ -96,6 +97,7 @@ body{
 .note-container {
     padding: 20px;
     border-radius: 10px;
+    
 }
 
 .note-list {

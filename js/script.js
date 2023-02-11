@@ -45,5 +45,6 @@ deleteBtn.addEventListener('click', function () {
 
 // Total text count
 form.addEventListener('keyup', function () {
-    document.querySelector('.length').innerText = `Charecters: ${form.value.length}`;
+    let texts = form.value;
+    document.querySelector('.length').innerText = `${texts.length} charecter & ${texts.split(" ").length} words`;
 })
